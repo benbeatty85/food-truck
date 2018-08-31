@@ -1,10 +1,10 @@
 .logo {
-font-size: 4em;
+font-size: 3em;
 font-family: $ff-title;
 text-align: center;
 display: block;
 text-transform: capitalize;
-color: white;
+color: $clr-white-dark;
 }
 
 .section-intro {
@@ -19,6 +19,7 @@ color: white;
     padding: 10vh 0vw;
     grid: auto-flow / minmax(1em, 1fr) minmax(300px, 950px) minmax(1em, 1fr);
     text-align: center;
+    width: 100vw;
     
     .logo {
         grid-column: 2/3;
@@ -29,7 +30,7 @@ color: white;
 .intro-text {
 grid-column: 2/3;
 position: relative;
-font-size: 1em;
+font-size: 0.7em;
 color: $clr-blue-dark;
 background-color: rgba(155,155,155,0.9);
 border-radius: 1em;
@@ -50,5 +51,8 @@ border-radius: 1em;
 @media only screen and (min-width: 900px) {
     .logo {
         font-size: 6em;
+    }
+    .intro-text {
+        font-size: 1em;
     }
 }

@@ -1,0 +1,30 @@
+nav {
+    color: $clr-white-dark;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    border-top: 0.5em solid $clr-blue-dark;
+    
+    ul {
+        display: flex;
+        justify-content: space-evenly; 
+        list-style: none;
+        padding: 0;
+        max-width: 900px;
+        margin: 1em auto 0;
+    }
+    
+    a {
+        color: inherit;
+        text-transform: capitalize;
+        text-decoration: none;
+        padding-right: 10px;
+        
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+    
+}
+
