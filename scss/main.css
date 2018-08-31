@@ -2,30 +2,79 @@
 body {
   font-family: "Comfortaa", cursive;
   font-size: 1.3125rem;
-  line-height: 1.5;
-  color: #89807A; }
+  line-height: 1.7;
+  color: #89807A;
+  overflow-x: hidden; }
 
-/* line 8, /Users/benbeatty/Desktop/food-truck/scss/base/_typography.scss */
+/* line 9, /Users/benbeatty/Desktop/food-truck/scss/base/_typography.scss */
 h1, h2, h3, p, figure {
   margin: 0; }
 
-/* line 12, /Users/benbeatty/Desktop/food-truck/scss/base/_typography.scss */
+/* line 13, /Users/benbeatty/Desktop/food-truck/scss/base/_typography.scss */
 .section-title, .section-subtitle {
   font-family: "Nunito", sans-serif;
   line-height: 1; }
 
-/* line 17, /Users/benbeatty/Desktop/food-truck/scss/base/_typography.scss */
+/* line 18, /Users/benbeatty/Desktop/food-truck/scss/base/_typography.scss */
 .section-title {
   font-size: 4.75rem;
-  color: #414A4D;
+  color: #2F4F4F;
   text-transform: capitalize; }
 
-/* line 23, /Users/benbeatty/Desktop/food-truck/scss/base/_typography.scss */
+/* line 24, /Users/benbeatty/Desktop/food-truck/scss/base/_typography.scss */
 .section-subtitle {
   font-size: 1.69rem;
   color: #A3B9BF;
   text-transform: uppercase;
   letter-spacing: 2px;
   margin-bottom: 0.5em; }
+
+/* line 1, /Users/benbeatty/Desktop/food-truck/scss/layout/_intro.scss */
+.logo {
+  font-size: 4em;
+  font-family: "Nunito", sans-serif;
+  text-align: center;
+  display: block;
+  text-transform: capitalize;
+  color: white; }
+
+/* line 10, /Users/benbeatty/Desktop/food-truck/scss/layout/_intro.scss */
+.section-intro {
+  background-image: url(../../images/hero.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: grid;
+  padding: 10vh 0vw;
+  grid: auto-flow/minmax(1em, 1fr) minmax(300px, 950px) minmax(1em, 1fr);
+  text-align: center; }
+  /* line 23, /Users/benbeatty/Desktop/food-truck/scss/layout/_intro.scss */
+  .section-intro .logo {
+    grid-column: 2/3;
+    margin-bottom: 0.5em; }
+
+/* line 29, /Users/benbeatty/Desktop/food-truck/scss/layout/_intro.scss */
+.intro-text {
+  grid-column: 2/3;
+  position: relative;
+  font-size: 1em;
+  color: #2F4F4F;
+  background-color: rgba(155, 155, 155, 0.9);
+  border-radius: 1em; }
+  /* line 37, /Users/benbeatty/Desktop/food-truck/scss/layout/_intro.scss */
+  .intro-text::after {
+    content: '';
+    display: block;
+    height: 2px;
+    background-color: white;
+    width: 200px;
+    position: absolute;
+    top: -1em;
+    left: 50%;
+    transform: translateX(-50%); }
+
+@media only screen and (min-width: 900px) {
+  /* line 51, /Users/benbeatty/Desktop/food-truck/scss/layout/_intro.scss */
+  .logo {
+    font-size: 6em; } }
 
 /*# sourceMappingURL=main.css.map */
