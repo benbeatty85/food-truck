@@ -1,2 +1,31 @@
+/* line 1, /Users/benbeatty/Desktop/food-truck/scss/base/_typography.scss */
+body {
+  font-family: "Comfortaa", cursive;
+  font-size: 1.3125rem;
+  line-height: 1.5;
+  color: #89807A; }
+
+/* line 8, /Users/benbeatty/Desktop/food-truck/scss/base/_typography.scss */
+h1, h2, h3, p, figure {
+  margin: 0; }
+
+/* line 12, /Users/benbeatty/Desktop/food-truck/scss/base/_typography.scss */
+.section-title, .section-subtitle {
+  font-family: "Nunito", sans-serif;
+  line-height: 1; }
+
+/* line 17, /Users/benbeatty/Desktop/food-truck/scss/base/_typography.scss */
+.section-title {
+  font-size: 4.75rem;
+  color: #414A4D;
+  text-transform: capitalize; }
+
+/* line 23, /Users/benbeatty/Desktop/food-truck/scss/base/_typography.scss */
+.section-subtitle {
+  font-size: 1.69rem;
+  color: #A3B9BF;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 0.5em; }
 
 /*# sourceMappingURL=main.css.map */

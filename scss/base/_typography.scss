@@ -1,0 +1,29 @@
+body {
+font-family: $ff-body;
+font-size: 1.3125rem;
+line-height: 1.5;
+color: $clr-brown-dark;
+}
+
+h1, h2, h3, p, figure {
+margin: 0;
+}
+
+.section-title, .section-subtitle {
+font-family: $ff-title;
+line-height: 1;
+}
+
+.section-title {
+font-size: 4.75rem;
+color: $clr-blue-dark;
+text-transform: capitalize;
+}
+
+.section-subtitle {
+font-size: 1.69rem;
+color: $clr-blue-light;
+text-transform: uppercase;
+letter-spacing: 2px;
+margin-bottom: 0.5em;
+}
